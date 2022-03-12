@@ -1,0 +1,68 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 5c40247e-5f02-469b-86e7-d7bb4f416cca)
+
+  (paper "A4")
+
+  (title_block
+    (title "24V Distribution")
+    (date "2022-03-12")
+    (rev "V22.03.0.1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "24V Distribution V22.03.0.1" (at 25.4 25.4 0)
+    (effects (font (size 5.0038 5.0038) (thickness 1.0008) bold) (justify left bottom))
+    (uuid 628c4597-f04c-46f8-9d95-b3d6d05094a7)
+  )
+
+  (sheet (at 38.1 152.4) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061aa1a42)
+    (property "Sheet name" "Base PCB" (id 0) (at 38.1 151.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Base PCB.kicad_sch" (id 1) (at 38.1 178.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-000061aa1a42" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061abb3c4"
+      (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061abb3bc"
+      (reference "GND201") (unit 1) (value "Scope GND") (footprint "MEP_TEMPLATE:Scope_GND")
+    )
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061abb3dc"
+      (reference "H201") (unit 1) (value "M3 Mount") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad")
+    )
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061abb3d6"
+      (reference "H202") (unit 1) (value "M3 Mount") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad")
+    )
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061abb3d0"
+      (reference "H203") (unit 1) (value "M3 Mount") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad")
+    )
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061abb3b2"
+      (reference "H204") (unit 1) (value "M3 Mount") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad")
+    )
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061b06a26"
+      (reference "J201") (unit 1) (value "Conn_02x32_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x32_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061b0eec3"
+      (reference "J202") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061aa1a42/00000000-0000-0000-0000-000061abb3ca"
+      (reference "JP201") (unit 1) (value "GND Jumper") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
+    )
+  )
+)
