@@ -6,8 +6,8 @@
 
   (title_block
     (title "MEPOS Base PCB")
-    (date "2022-03-21")
-    (rev "V22.03.0.2")
+    (date "2022-04-13")
+    (rev "V22.04.0.3")
   )
 
   (lib_symbols
@@ -1067,7 +1067,7 @@
     (uuid e2ec5c16-1e72-4a79-81b2-711742440b39)
   )
 
-  (text "MEPOS Base PCB V22.03.0.2" (at 25.4 25.4 0)
+  (text "MEPOS Base PCB V22.04.0.3" (at 25.4 25.4 0)
     (effects (font (size 5.0038 5.0038) (thickness 1.0008) bold) (justify left bottom))
     (uuid 5cdb3719-e8d8-46d8-be76-15a49b96a5e9)
   )
